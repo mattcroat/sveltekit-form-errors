@@ -13,8 +13,8 @@
 	method="POST"
 	use:enhanceForm={{
 		error: async ({ response }) => {
-			// get errors from response
-			errors = (await await response?.json()).errors
+			// get and set errors from response
+			errors = (await response?.json()).errors
 		},
 		result: () => {
 			// reset errors
