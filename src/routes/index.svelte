@@ -36,12 +36,9 @@
 
 <style>
 	form {
-		max-width: 200px;
+		max-width: 260px;
 		display: grid;
 		gap: 1rem;
-	}
-	span {
-		display: block;
 	}
 
 	.error {
